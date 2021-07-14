@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --padding: 15px;
+    --primaryColor: rgba(29,161,242,1.00);
+    --primaryFont:'Poppins', sans-serif;
+    --primaryRadius:10px;
+    --fontColor:#f5f7fa;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-top: 60px;
+}
+
+
+.package{
+    background-color: #28efef;
+    font-family: var(--primaryFont);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #434a54;
+}
+.code__head__sticky {
+    top: 0;
+    position: fixed;
+    background-color: #fffdfd;
+    z-index: 33;
+    width: 100%;
+    height: 60px;
+}
+.package .c-top {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #fffdfd;
+    box-shadow: 0px 0px 1px;
+    z-index: 33;
+}
+.package .c-top button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    height: 100%;
+    width: 58px;
+    background-color: #fffdfd;
+    border: none;
+    outline: none;
+}
+.package .c-top button i {
+    font-size: 28px;
+    color: var(--primaryColor);
+}
+.package .package__card{
+    height: 350px;
+    width: 300px;
+    transform: translateY(-130px);
+    border-radius: 10px;
+    background-color: rgb(30, 197, 197);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.175) !important;
+}
+.package .package__card .package__card__top{
+    font-family: var(--primaryFont);
+    border-top-left-radius: var(--primaryRadius);
+    border-top-right-radius: var(--primaryRadius);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/3bef3cbc-4f93-42e4-830b-02743cb302ea/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=e57d9e12a6df8d44cccbe6f1e7711ec1");
+}
+.package .package__card .package__card__top .profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.package .package__card .package__card__top .profile img{
+    transform: translateY(70px);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.175);
+}
+.package .package__card .package__card__bottom{
+    width: 100%;
+    font-family: var(--primaryFont);
+    height:290px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    border-bottom-left-radius: var(--primaryRadius);
+    border-bottom-right-radius: var(--primaryRadius);
+}
+.package .package__card .package__card__bottom .user__name{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.package .package__card .package__card__bottom .user__name .user__name__name{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.package .package__card .package__card__bottom .user__name .user__name__work{
+    font-size: 14px;
+    font-weight: 500;
+}
+.package .package__card .package__card__bottom .user__des{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.package .package__card .package__card__bottom .user__social{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.package .package__card .package__card__bottom .user__social ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.package .package__card .package__card__bottom .user__social ul li{
+    list-style: none;
+    font-size: 23px;
+    padding: 15px;
+
+}
+.number{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
