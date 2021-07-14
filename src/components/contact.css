@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --padding: 15px;
+    --primaryColor: rgba(29, 161, 242, 1);
+    --primaryFont: 'Poppins', sans-serif;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin-top: 60px;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: var(--primaryFont);
+}
+.code__head__sticky {
+    top: 0;
+    position: fixed;
+    background-color: #fffdfd;
+    z-index: 33;
+    width: 100%;
+    height: 60px;
+}
+.contact .c-top {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #fffdfd;
+    box-shadow: 0px 0px 1px;
+    z-index: 33;
+}
+.contact .c-top button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    height: 100%;
+    width: 58px;
+    background-color: #fffdfd;
+    border: none;
+    outline: none;
+}
+.contact .c-top button i {
+    font-size: 28px;
+    color: var(--primaryColor);
+}
+
+.n-body {
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.n-body .n-b-about {
+    height: 130px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: var(--primaryFont);
+    line-height: 25px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0) !important;
+    background-color: var(--primaryColor);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    padding-bottom: 19px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-left: 6%;
+    max-width: 500px;
+}
+.n-body .n-b-about .n-b-about-top {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.n-body .n-b-about .n-b-about-bottom {
+    font-size: 13px;
+    text-align: left;
+    color: rgb(44, 41, 41);
+    font-weight: 600;
+}
+
+.n-mail-form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 197, 197);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    padding: 10px 6px;
+    max-width: 500px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.n-mail-form .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+.n-mail-form .form .n-m {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.n-mail-form .form .n-m input {
+    border: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+    color: #434a54;
+    border-radius: 5px;
+    font-weight: 400;
+    outline: none;
+    padding: 7px 13px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+}
+.n-mail-form .form .n-m input:focus {
+    background-color: #fff;
+    border-color: #a5c4ee;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(74 137 220 / 25%);
+}
+.n-mail-form .form .n-m.submit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    padding: 15px 10px;
+}
+
+.n-mail-form .form .n-m.submit .submit {
+    padding: 5px 19px;
+    text-transform: uppercase;
+    background-color: #4a89dc;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 3px;
+}
+.n-mail-form .form .n-m.submit input {
+    text-transform: uppercase;
+    background-color: #4a89dc;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 1px;
+    width: auto;
+    font-weight: 600;
+}
+.n-mail-form .form .n-m.name,
+.n-mail-form .form .n-m.email,
+.n-mail-form .form .n-m.message,
+.n-mail-form .form .n-m.submit {
+    height: 200px;
+    padding: 15px 10px;
+}
+.n-mail-form .form .n-m.message textarea {
+    width: 100%;
+    height: 100%;
+}
+.n-mail-form .form .n-m.message textarea {
+    border: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+    color: #434a54;
+    border-radius: 5px;
+    font-weight: 400;
+    outline: none;
+    padding: 8px 13px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.n-mail-form .form .n-m.message textarea:focus {
+    color: #434a54;
+    background-color: #fff;
+    border-color: #a5c4ee;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(74 137 220 / 25%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--primaryFont);
+    width: 100%;
+    height: 250px;
+    color: #434a54;
+    padding: 30px;
+}
+.footer .f-top {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.footer .f-bottom {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .f-bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+}
+.footer .f-bottom ul li {
+    padding: 10px;
+    list-style: none;
+}
+.footer .f-bottom ul li {
+    transition: transform 0.3s ease-in-out;
+}
+.footer .f-bottom ul li:hover {
+    transform: translateY(-4px);
+}
+.footer .copy-right {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    line-height: 27px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.footer .copy-right span {
+    font-weight: bold;
+}

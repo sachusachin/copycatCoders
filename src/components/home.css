@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+:root {
+    --padding: 15px;
+    --primaryColor: rgb(28, 155, 234);
+    --primaryFont:'Poppins', sans-serif;
+}
+
+html{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.header__head{
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    padding-left: 6%;
+    background-color: white;
+}
+.header__head .header__head__p1{
+    font-size: 23px;
+    padding-bottom: 20px;
+    padding-top: 10%;
+    font-weight: bold;
+    font-family:var(--primaryFont) ;
+    color: #25265e;
+}
+.header__head .header__head__p2 {
+    color: rgba(37, 38, 94, .5);
+    line-height: 25px;
+    word-spacing: 1px;
+    font-family: var(--primaryFont);
+}
+.header__image{
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__image::before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 60%;
+    bottom: 50px;
+    background-color: var(--primaryColor);
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px ;
+}
+.header__image img{
+    position: absolute;
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: contain;
+}

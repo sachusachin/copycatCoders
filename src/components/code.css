@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --padding: 15px;
+    --primaryColor: rgba(29, 161, 242, 1);
+    --primaryFont: 'Poppins', sans-serif;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin-top: 60px;
+}
+.code {
+    font-family: var(--primaryFont);
+}
+.code__nabar__sticky {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+}
+.code .code__navbar {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #fffdfd;
+    box-shadow: 0px 0px 1px;
+    display: flex;
+    align-items: center;
+}
+.code .code__navbar .code__navbar__left {
+    width: 20%;
+}
+.code .code__navbar button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    height: 100%;
+    width: 58px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.code .code__navbar button i {
+    font-size: 28px;
+    color: var(--primaryColor);
+}
+.code .code__navbar .code__navbar__search {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.code .code__navbar .navbar__search__input {
+    position: relative;
+    width: 90%;
+}
+.code .code__navbar .code__navbar__search input {
+    font-weight: 500;
+    width: 100%;
+    padding: 10px 13% 10px 8%;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid transparent;
+}
+.code .code__navbar .code__navbar__search input:focus {
+    border: 1px solid var(--primaryColor);
+}
+.code .code__navbar .navbar__search__i {
+    position: absolute;
+    right: 10%;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+}
+.code .code__navbar .code__navbar__search i {
+    left: -5px;
+    width: 100%;
+    height: 100%;
+}
+.code__body__lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.code__body__lists__list {
+    margin: 25px 0px;
+    box-shadow: 0 0 3px 1px floralwhite;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    text-wrap: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--primaryColor);
+}
+.code__top {
+    padding: 8px;
+    background-color: var(--primaryColor);
+    box-shadow: 0 0 3px #7b6f6f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.code__body__lists__list .code__head {
+    color: black;
+    width: 100%;
+}
+.code__body__lists__list .code__question {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 0px;
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+}
+.code__body__lists__list .code__programs {
+    padding: 8px;
+    color: #3b3636;
+    font-weight: 500;
+    font-family: 'Segoe UI Black' !important;
+    width: 100%;
+    overflow-x: auto;
+}
