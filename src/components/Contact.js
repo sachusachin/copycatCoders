@@ -136,8 +136,8 @@ export function Contact() {
                     </div>
                     <div className="copy-right">
                         <p>
-                            © Right Resume. All rights reserved. Design
-                            <span> IT Developers</span>
+                            © Right Website. All rights reserved. Design
+                            <span> Amarnath</span>
                         </p>
                     </div>
                 </div>
