@@ -58,7 +58,7 @@ function Phpprograming() {
                         <section className='php__body__lists__list'>
                             <div className='php__top'>
                                 <div className='php__head'>
-                                    <p>Code: {key.head}</p>
+                                    <p key={key}>Code: {key.head}</p>
                                 </div>
                                 <div className='php__question'>
                                     <p  key={key}>{key.question}</p>
