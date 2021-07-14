@@ -38,7 +38,7 @@ function Cppprograming() {
             </div>
 
             <Meterial
-                compiler='https://www.jdoodle.com/online-cpp-compiler/'
+                compiler='https://www.jdoodle.com/online-c++-compiler/'
                 app='https://developerinsider.co/download-turbo-c-for-windows-7-8-8-1-and-windows-10-32-64-bit-full-screen/'
                 name='Turbo C++'
             />
